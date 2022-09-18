@@ -2,3 +2,17 @@
     text-decoration: none;
     list-style-type: none;
 }
+@mixin btn-bg{
+    .lblue{
+        background-color: lightblue;
+    }
+    .green{
+        background-color: green;
+    }
+    .pink{
+        background-color: pink;
+    }
+    .violet{
+        background-color: violet;
+    }
+}
