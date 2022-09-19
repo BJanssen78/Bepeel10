@@ -24,8 +24,7 @@ body {
   text-shadow: 1px 1px red;
 }
 .navigation .inner-nav {
-  width: 50px;
-  height: 250px;
+  width: 40px;
   position: relative;
 }
 .navigation .inner-nav:hover .colorlist {
@@ -43,26 +42,22 @@ body {
   text-decoration: none;
   list-style-type: none;
   font-family: Arial, Helvetica, sans-serif;
-  width: 100%;
+  width: 155px;
   z-index: 1;
 }
 
-.box {
+#box {
   width: 250px;
   height: 250px;
   border: 1px solid black;
   margin: 50px auto;
 }
 
-.on {
-  display: block;
-}
-
 .menu-btn {
   background-color: transparent;
-  width: 60px;
-  margin-left: 10px;
+  width: 35px;
   border: none;
+  padding: 0;
 }
 
 .colorlist-item-button {
@@ -74,7 +69,6 @@ body {
   box-shadow: 2px 2px black;
 }
 .colorlist-item-button:hover {
-  background-color: red;
   box-shadow: -2px -2px black;
 }
 
