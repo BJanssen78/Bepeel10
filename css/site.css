@@ -50,7 +50,7 @@ body {
   width: 250px;
   height: 250px;
   border: 1px solid black;
-  margin: 50px auto;
+  margin: 10px auto;
 }
 
 .menu-btn {
@@ -86,4 +86,9 @@ body {
 
 .violet {
   background-color: violet;
+}
+
+.text {
+  margin-top: 10px;
+  padding: 10px;
 }/*# sourceMappingURL=site.css.map */
