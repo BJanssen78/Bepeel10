@@ -29,16 +29,17 @@ body {
 }
 .navigation .inner-nav:hover .colorlist {
   display: block;
+  left: 0;
 }
 .navigation .navigation-menu {
   font-size: 3em;
 }
 .navigation .colorlist {
-  display: none;
   position: absolute;
   margin: 0;
   padding-left: 10px;
-  transform: translateY(-5px);
+  left: -500px;
+  transition: left 400ms ease-in;
   text-decoration: none;
   list-style-type: none;
   font-family: Arial, Helvetica, sans-serif;
